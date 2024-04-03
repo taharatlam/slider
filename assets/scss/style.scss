@@ -1190,6 +1190,7 @@ line-height: 150%; /* 21px */
   font-size: 26px;
   font-weight: 600;
   font-family: Jost;
+  line-height: 110% !important;
 
   &.med{
     font-weight: 500 !important;
@@ -1326,7 +1327,9 @@ line-height: 150%; /* 21px */
   .modal-content{
     overflow: hidden;
     background: #FDF8F7;
+    @media(min-width: 600px){
     max-height: 90vh;
+    }
     overflow: hidden;
   }
 
@@ -1388,15 +1391,19 @@ line-height: 150%; /* 21px */
   .p-con{
     padding: 0em 8em;
     padding-right: 5em;
-    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    @media(min-width: 600px){
+    height: 50vh;
+    }
+    
     .main-btn{
 
       span{
-        font-size: 2vh;
+        @media(min-width: 600px){
+          font-size: 2vh;
+        }
       }
     }
 
@@ -1431,14 +1438,18 @@ line-height: 150%; /* 21px */
     }
 
     p{
+      @media(min-width: 600px){
       font-size: 2vh;
+      }
     }
   }
 
   .p-img{
     width: 100%;
     position: relative;
+    @media(min-width: 600px){
     height: 50vh;
+    }
 
     img{
       height: 100%;
@@ -1521,26 +1532,34 @@ line-height: 150%; /* 21px */
   }
 }
 .second-slide-row{
+
+  @media(min-width: 600px){
   height: 50vh;
+  }
 
   p, ul li{
+    @media(min-width: 600px){
     font-size: 2vh;
+    }
   }
   
   .head{
+    @media(min-width: 600px){
     font-size: 3.3vh;
+    }
   }
 
   .sec-top-2{
+    @media(min-width: 600px){
+      h2{
+        font-size: 4.5vh;
+      }
+      h4{
+        font-size: 3.3vh;
 
-    h2{
-      font-size: 4.5vh;
-    }
-    h4{
-      font-size: 3.3vh;
-
-      span{
-        font-size: 1.2em;
+        span{
+          font-size: 1.2em;
+        }
       }
     }
   }
