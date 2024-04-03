@@ -658,7 +658,7 @@
   overflow: hidden;
   transition: 0.5s all;
   cursor: pointer;
-  padding-top: 71%;
+  height: 25vh;
 }
 
 .gal-hov-box h3 {
@@ -1792,6 +1792,8 @@ img.pop-vec-1 {
 .modal-2 .modal-content {
   overflow: hidden;
   background: #FDF8F7;
+  max-height: 90vh;
+  overflow: hidden;
 }
 .modal-2 .modal-body {
   padding-bottom: 3em;
@@ -1803,8 +1805,16 @@ img.pop-vec-1 {
   padding-right: 3em;
 }
 
+.dm-img {
+  height: 100%;
+}
 .dm-img img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left center;
+     object-position: left center;
 }
 
 .sec-top-2 h2 {
@@ -1934,7 +1944,38 @@ img.pop-vec-1 {
   background-repeat: no-repeat;
   text-decoration: none !important;
 }
+.underline.pink {
+  background: linear-gradient(to right, #CB656C, #CB656C), linear-gradient(to right, #CB656C, #CB656C, #CB656C);
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  text-decoration: none !important;
+}
 
 .para {
   font-size: 14px;
+}
+
+.first-slide-con .head {
+  margin: 0 auto;
+  font-size: 32px;
+}
+
+.second-slide-row {
+  height: 50vh;
+}
+.second-slide-row p, .second-slide-row ul li {
+  font-size: 2vh;
+}
+.second-slide-row .head {
+  font-size: 3.3vh;
+}
+.second-slide-row .sec-top-2 h2 {
+  font-size: 4.5vh;
+}
+.second-slide-row .sec-top-2 h4 {
+  font-size: 3.3vh;
+}
+.second-slide-row .sec-top-2 h4 span {
+  font-size: 1.2em;
 }/*# sourceMappingURL=style.css.map */
