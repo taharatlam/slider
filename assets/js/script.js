@@ -25,7 +25,7 @@ $(document).ready(function() {
 // Initialize Swiper
 $(document).ready(function() {
     var swiperMain = new Swiper(".mySwiper", {
-        mousewheel: false,
+        mousewheel: true,
         pagination: {
             el: ".swiper-pagination",
             type: "progressbar",
@@ -147,10 +147,15 @@ $(document).ready(function() {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Display the result in the corresponding elements
-        document.getElementById("days").innerHTML = days;
-        document.getElementById("hours").innerHTML = hours;
-        document.getElementById("minutes").innerHTML = minutes;
-        document.getElementById("seconds").innerHTML = seconds;
+        // document.getElementById("days").innerHTML = days;
+        // document.getElementById("hours").innerHTML = hours;
+        // document.getElementById("minutes").innerHTML = minutes;
+        // document.getElementById("seconds").innerHTML = seconds;
+
+        $('.days').html(days);
+        $('.hours').html(hours);
+        $('.minutes').html(minutes);
+        $('.seconds').html(seconds);
 
         // If the countdown is finished, display a message
         if (distance < 0) {

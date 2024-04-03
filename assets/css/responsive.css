@@ -253,4 +253,16 @@
 	.dm-con{
 		padding: 1.5em;
 	}
+	.ff-wrapp > div img{
+		width: 90px;
+	}
+	.ff-wrapp > div p{
+		font-size: 12px;
+	}
+	.ff-wrapp > div h3{
+		font-size: 16px;
+	}
+	.main-btn span{
+		font-size: 14px;
+	}
 }
