@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+        integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+
+<body class="bg-over">
+    <!-- <div class="the-header">
+        <div class="logo">
+            <img src="assets/img/logo.svg">
+        </div>
+        <div class="menubar">
+            <img src="assets/img/menu.svg">
+        </div>
+    </div>
+    <div class="side-menu">
+       <span class="close"><i class="fa-light fa-circle-xmark"></i></span>
+        <img class="menu-vec" src="assets/img/menu-vec.png">
+        <img class="side-menu-shape" src="assets/img/menu-shape.svg">
+       <ul>
+          <li><span>01.</span><a href="">Pamiętnik początku</a></li>
+          <li><span>02.</span><a href="">Kampania</a></li>
+          <li><span>03.</span><a href="">Autorka książki</a></li>
+       </ul>
+    </div> -->
+
+
+    <section class="desk">
+        <div class="container-fluid p-none">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div id="scene" class="swiper-slide first-slide">
+                        <img class="vec-1" src="assets/img/first-vec-1.png">
+                        <img class="vec-2" src="assets/img/first-vec-2.png">
+                        <div class="row items-center">
+                            <div class="col-md-6 h-100">
+                                <div class="first-slide-img">
+                                    <img data-aos="fade-right" data-aos-duration="2000"
+                                        src="assets/img/first-slide-img.svg">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="main-slide-con">
+                                    <div class="first-slide-con">
+
+                                        <!-- <div class="TD-title">
+                                            <h1 class="TD-title__perfomance text-center" td-animate>Dołącz do oficjalnej transmisji</h1>
+                                        </div> -->
+                                        <h1 class="head text-center" data-aos="fade-up" data-aos-duration="2500">
+                                            Dołącz do oficjalnej transmisji     
+                                        </h1>
+                                        <p class="text-center mx-auto" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="200">
+                                            z okazji premiery drugiej książki Marianny Gierszewskiej <br><b>“Początek Wszystkiego”</b>
+                                        </p>
+                                        <p data-aos="fade-up" data-aos-delay="400" class="underline text-center mx-auto modal-trigger-text" data-aos-duration="2500" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                                            Przeczytaj pełen opis
+                                        </p>
+                                        <div class="timer-box mt-30 mb-20" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="600">
+                                            <div class="e-book-img">
+                                                <img src="assets/img/book1.png" alt="">
+                                            </div>
+                                            <div class="r-part">
+                                                <div class="in-box">
+                                                    <img src="assets/img/cal1.svg" alt="">
+                                                    <div>
+                                                        <p>Do zobaczenia</p>
+                                                        <p><b>17/04 o godzinie 17:00</b></p>
+                                                    </div>
+                                                </div>
+                                                <div class="in-box">
+                                                    <img src="assets/img/clock1.svg" alt="">
+                                                    <div>
+                                                        <p>Do transmicji pozostało:</p>
+                                                        <p><b><span id="days">14</span> dni - <span id="hours">3</span> godziny - <span id="minutes">22</span> minuty</b></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <p class="qoute-p" data-aos="fade-up" data-aos-duration="2500">Przeczytaj pełen opis</p> -->
+                                        <!-- Button trigger modal -->
+                                        <!-- <button data-aos="fade-up" data-aos-duration="2500" type="button"
+                                            class="pop-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <span>Przeczytaj pełny opis</span>
+                                            <i class="fa-light fa-angle-up"></i>
+                                        </button> -->
+
+
+                                    </div>
+                                    <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" class="form-styles subscribe-inp">
+                                        <p class="subtextform">Jeśli chcesz dostać przypomnienie o wydarzeniu, zapisz
+                                            się poniżej.</p>
+                                        <form class="">
+                                            <div class="main-div-form ">
+
+                                                <input type="email" name="email" class="form-control" value=""
+                                                    placeholder="E-mail">
+                                                <button type="submit" class="btn btn-primary">Zapisz mnie</button>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                        Wyrażam zgodę na przetwarzanie moich danych
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- <div data-aos="fade-up" data-aos-duration="3000" class="counter-main">
+                                        <h3>Do transmisji pozostało:</h3>
+                                        <div class="the-counter">
+                                            <div class="counter">
+                                                <h4 id="days">13</h4>
+                                                <span>Dni</span>
+                                            </div>
+                                            <i class="fa-solid fa-colon"></i>
+                                            <div class="counter">
+                                                <h4 id="hours">23</h4>
+                                                <span>Godzin</span>
+                                            </div>
+                                            <i class="fa-solid fa-colon"></i>
+                                            <div class="counter">
+                                                <h4 id="minutes">18</h4>
+                                                <span>Minut</span>
+                                            </div>
+                                            <i class="fa-solid fa-colon"></i>
+                                            <div class="counter">
+                                                <h4 id="seconds">26</h4>
+                                                <span>Sekund</span>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <!-- <div>
+                     <div class="layer" data-depth=".1">
+                        <a href="" data-aos="fade-up" data-aos-duration="3000" class="with-arrow">
+                        <span>W trakcie transmisji..</span>
+                        <img src="assets/img/arrow.svg">
+                    </a>
+                    </div>   
+                    </div> -->
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="second-slide" class="swiper-slide second-slide">
+                        <img class="second-vec" src="assets/img/des.png">
+                        <div class="row second-slide-row">
+                            <div class="col-12 text-center">
+                                <div class="sec-top-2">
+                                    <h2 data-aos="fade-up" data-aos-duration="1000"><span>#</span>Pamiętnikpoczątku</h2>
+                                    <h4 data-aos="fade-up" data-aos-duration="1500">
+                                        Początki mają znaczenie... <span>jaki był Twój?</span>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div data-aos="fade-up" data-aos-duration="1000" class="second-slide-con-rpart">
+                                    <h3 clas="head sm brown">Początek, a więc...</h3>
+                                    <ul>
+                                        <li><img src="assets/img/leaf.svg">nasz czas spędzony w brzuchu mamy, nasze
+                                            narodziny i pierwsze miesiące po urodzeniu. </li>
+                                        <li><img src="assets/img/leaf.svg">wszystko to, co zapisało się jako pierwsze
+                                            wzorce bezpieczeństwa, bliskości i miłości.</li>
+                                        <li><img src="assets/img/leaf.svg">a więc nasze własne macierzyństwo i wydanie
+                                            na świat naszych dzieci. </li>
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                            <div class="col-md-6 col-md-center">
+                                <div class="second-slide-con">
+                                    <h3 data-aos="fade-up" data-aos-duration="2000" class="head sm brown">
+                                        Opis kampanii...
+                                    </h3>
+                                    <p data-aos="fade-up" data-aos-duration="2000">
+                                        Celem akcji <b>#pamięnikpoczątku</b> jest poszerzenie świadomości na temat wpływu czasu
+                                        prenatalnego, okołoporodowego i wczesnodziecięcego na życie dorosłe. Zachęcamy 
+                                        do otwartego mówienia o swoim wczesnym dzieciństwie i macierzyństwie.
+                                        <br><br>
+                                        Podziel się swoim doświadczeniem wybierając jedną z dwóch płaszczyzn:
+                                        “ja, dziecko mojej mamy” lub “ja, mama mojego dziecka”
+                                        Opowiedz o swoim doświadczeniu, być może po raz pierwszy...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <!-- <div class="second-slide-con">
+                    <div class="second-slide-con-ab">
+                       
+                       <p data-aos="fade-up" data-aos-duration="1500">Początek, a więc nasz czas spędzony w brzuchu mamy, nasze narodziny i pierwsze miesiące po urodzeniu. Początek, a więc wszystko to, co zapisało się jako pierwsze wzorce bezpieczeństwa, bliskości i miłości.
+Początek, a więc nasze własne macierzyństwo i wydanie na świat naszych dzieci.
+Którą historię pragniesz opowiedzieć na głos?
+Którym doświadczeniem chcesz się podzielić?
+„Ja, dziecko mojej mamy”, czy „Ja, mama mojego dziecka”?
+Celem akcji #pamietnikopoczatku jest poszerzenie świadomości na temat wpływu czasu prenatalnego, okołoporodowego i wczesnodziecięcego na życie dorosłe.
+Początki mają znaczenie…
+Jaki był Twój?
+</p>
+                    </div>
+                    
+                    
+                </div> -->
+                                <div data-aos="fade-up" data-aos-duration="2000" class="the-gallery">
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k1.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Sylwia Luks</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k2.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Olga Kalicka</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k3.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Ola Domańska</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k4.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Klaudia Morawska</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k5.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Lara Gessler</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k6.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Ula Sherlock</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k7.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Ewa Starzyńska</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k8.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Marianka Gierszewska</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k9.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Izabela Dembińska</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k10.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Maria Konarowska</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k11.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Alicja Sobczak</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="gallery-img">
+                                        <img src="assets/img/k12.jpg">
+                                        <div class="gal-hov-box">
+                                            <h3>Karina Szóstak</h3>
+                                            <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide third-slide">
+                        <div class="th-slide-wrap">
+                            <div class="p-grid">
+                                <div class="" >
+                                    <div class="p-con" >
+                                        <h3 class="head sm pink med">
+                                            “POCZĄTEK WSZYSTKIEGO”
+                                        </h3>
+                                        <p class="para mt-3 mb-4">
+                                            <b>
+                                                Jak to, czego doświadczamy przed narodzinami i w ich trakcie, wpływa 
+                                                na nasze dorosłe życie.”
+                                            </b>
+                                            <br><br>
+                                            Gdzie jest „Początek wszystkiego”? Przy mamie i tacie. Przy ich zbliżeniu i jakiejś miłości. 
+                                            Pięknej, trudnej, bliskiej lub dalekiej. Początek wszystkiego jest przy bijącym sercu opiekunki i przy wspólnym z nią doświadczeniu narodzin. I wreszcie... Początek wszystkiego jest przy historii 
+                                            pierwszych miesięcy i lat życia. <a href="javascript:void(0)" class="pink"><b>Przeczytaj więcej</b></a>
+                                        </p> 
+                                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal1" class="main-btn ">
+                                            <span>Zamów książkę w preorderze</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="p-img">
+                                        <img src="assets/img/d1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-grid">
+                                
+                                <div class="">
+                                    <div class="p-img">
+                                        <ul class="soc">
+                                            <li>
+                                                <a href="">
+                                                    <img src="assets/img/instagram.svg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <img src="assets/img/spot.svg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <img src="assets/img/yt.svg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <img src="assets/img/face.svg" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <img src="assets/img/d2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="p-con">
+                                        <h3 class="head sm pink med">
+                                            MARIANNA GIERSZEWSKA
+                                        </h3>
+                                        <ul>
+                                            <li>KOBIETA</li>
+                                            <li>ŻONA</li>
+                                            <li>MAMA</li>
+                                        </ul>
+                                        <p class="para mt-3 mb-4">
+                                            Od 2016 roku, stomiczka po ratującej życie operacji usunięcia całego jelita grubego.
+                                            <br><br>
+                                            Autorka bestsellerowej książki „Być tak naprawdę”, coach kognitywny i praktyk ustawień systemowych. Mówczyni, twórczyni i właścicielka dwóch firm: platformy warsztatowo-rozwojowej, Okolice Ciała oraz przestrzeni terapeutycznej ciała, Ajoni.
+                                            <br><br>
+                                            Marianna prowadzi także własny podcast „Tak właśnie mam”, który w ciągu sześciu 
+                                            miesięcy od premiery odsłuchało ponad 2 miliony osób.
+                                        </p> 
+                                   
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide third-slide">
+                        <img class="t-vec-1" src="assets/img/t-vec-1.png">
+                        <img class="t-vec-2" src="assets/img/t-vec-2.png">
+                        <img class="t-vec-3" src="assets/img/t-vec-3.png">
+             
+                        <img data-value="4" class="tg-2 object" src="assets/img/tg-2.png">
+                        <div class="third-slidename">
+                            <h3>MARIANNA GIERSZEWSKA</h3>
+                            <ul>
+                                <li>KOBIETA</li>
+                                <li><span class="dot"></span></li>
+                                <li>KOBIETA</li>
+                                <li><span class="dot"></span></li>
+                                <li>KOBIETA</li>
+                            </ul>
+                        </div>
+                        <div class="row all-pad">
+                            <div class="col-md-6">
+                                <div class="col-last">
+                                    <img src="assets/img/l-1.png">
+                                    <p>Od 2016 roku, stomiczka po ratującej życie operacji<br> usunięcia całego jelita
+                                        grubego.<br><br>
+
+                                        Autorka bestsellerowej książki „być tak naprawdę”,<br> coach kognitywny i
+                                        praktyk ustawień systemowych.<br><br>
+
+                                        Mówczyni, twórczyni i właścicielka dwóch firm.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col-last last-col">
+                                    <div class="col-last">
+                                        <p>Prowadzi platformę warsztatowo - rozwojowej, Okolice Ciała oraz przestrzeni
+                                            terapeutycznej ciała, Ajoni.<br><br>
+
+                                            Marianna prowadzi także własny podcast „Tak właśnie mam”, który w ciągu
+                                            sześciu miesięcy od premiery odsłuchało ponad 2 miliony osób.</p>
+                                        <img src="assets/img/l-2.png">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mx-auto">
+                                <div class="third-main-con">
+                                    <div class="third-slide-con third-slide-con-op">
+                                        <span>Gdzie jest ,,początek wszystkiego”?</span>
+                                        <div class="p-cols">
+                                            <p>Przy mamie i tacie. Przy ich zbliżeniu i jakiejś miłości. Pięknej,
+                                                trudnej, bliskiej lub dalekiej. Początek wszystkiego, jest przy bijącym
+                                                sercu </p>
+                                            <p>A gdyby tak popatrzeć dalej i głębiej wstecz? Czy nasze odczuwanie
+                                                zaczyna się wraz z pierwszym oddechem? Czy nie ma wcześniejszego
+                                                początku? </p>
+                                        </div>
+                                        <div class="fade-div"></div>
+                                        <button type="button" class="pop-btn dark" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal1">
+                                            <span>Czytaj więcej</span>
+                                        </button>
+                                    </div>
+                                    <div class="socail-bar">
+                                        <h4>Moje social media</h4>
+                                        <ul>
+                                            <li><a href=""><img src="assets/img/insta.svg"></a></li>
+                                            <li><a href=""><img src="assets/img/spotify.svg"></a></li>
+                                            <li><a href=""><img src="assets/img/youtube.svg"></a></li>
+                                            <li><a href=""><img src="assets/img/facebook.svg"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="slide-nav">
+                    <button class="s-prev">
+                        <img src="assets/img/prev.svg" alt="">
+                    </button>
+                    <button class="s-next">
+                        <img src="assets/img/next.svg" alt="">
+                    </button>
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+    </section>
+    <section class="mob first-slide">
+        <div class="container p-none">
+            <div class="row items-center m-none">
+                <div class="col-md-6">
+                    <div class="main-slide-con">
+                        <div class="first-slide-con">
+                            <h1 data-aos="fade-up" data-aos-duration="2000">O Transmisji</h1>
+                            <p>Dołącz do oficjalnej transmisji z premiery drugiej książki Marianny Gierszewskiej: <br>
+                                <br>
+                            </p>
+                            <p class="qoute-p">“Początek wszystkiego. Jak to, czego doświadczamy przed narodzinami i w
+                                ich trakcie, wpływa na nasze dorosłe życie”.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="pop-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <span>Przeczytaj pełny opis</span>
+                                <i class="fa-light fa-angle-up"></i>
+                            </button>
+                        </div>
+                        <div class="form-styles subscribe-inp">
+                            <p class="subtextform">Jeśli chcesz dostać przypomnienie o wydarzeniu, zapisz się poniżej.
+                            </p>
+                            <form class="">
+                                <div class="main-div-form ">
+
+                                    <input type="email" name="email" class="form-control" value="" placeholder="E-mail">
+                                    <button type="submit" class="btn btn-primary">Zapisz mnie</button>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Wyrażam zgodę na przetwarzanie moich danych
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="counter-main">
+                            <h3>Do transmisji pozostało:</h3>
+                            <div class="the-counter">
+                                <div class="counter">
+                                    <h4 id="days">13</h4>
+                                    <span>Dni</span>
+                                </div>
+                                <i class="fa-solid fa-colon"></i>
+                                <div class="counter">
+                                    <h4 id="hours">23</h4>
+                                    <span>Godzin</span>
+                                </div>
+                                <i class="fa-solid fa-colon"></i>
+                                <div class="counter">
+                                    <h4 id="minutes">18</h4>
+                                    <span>Minut</span>
+                                </div>
+                                <i class="fa-solid fa-colon"></i>
+                                <div class="counter">
+                                    <h4 id="seconds">26</h4>
+                                    <span>Sekund</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="with-arrow">
+                        <span>W trakcie transmisji..</span>
+                        <img src="assets/img/arrow.svg">
+                    </div> -->
+                    </div>
+
+                </div>
+                <div class="col-md-6 p-none">
+                    <div class="first-slide-img">
+                        <img src="assets/img/mob-bn.png">
+                        <!-- <div class="slide-btm-img">
+                        <img src="assets/img/first-slide-onimg.svg">
+                    </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="mob second-slide">
+        <div class="container">
+            <div class="row second-slide-row">
+                <div class="col-md-6">
+                    <div class="second-slide-con">
+                        <h2 data-aos="fade-up" data-aos-duration="1000"><span>#</span>Pamiętnikpoczątku</h2>
+                        <h4 data-aos="fade-up" data-aos-duration="1500">Początki mają znaczenie... <span>Jaki był
+                                Twój?</span></h4>
+                        <p data-aos="fade-up" data-aos-duration="2000">Którą historię pragniesz opowiedzieć na głos?
+                            Którym doświadczeniem chcesz się podzielić?„Ja, dziecko mojej mamy”, czy „Ja, mama mojego
+                            dziecka”?</p>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6 col-md-center">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="second-slide-con-rpart">
+                        <h3>Początek, a więc...</h3>
+                        <ul>
+                            <li><img src="assets/img/leaf.svg">nasz czas spędzony w brzuchu mamy, nasze narodziny i
+                                pierwsze miesiące po urodzeniu. </li>
+                            <li><img src="assets/img/leaf.svg">wszystko to, co zapisało się jako pierwsze wzorce
+                                bezpieczeństwa, bliskości i miłości.</li>
+                            <li><img src="assets/img/leaf.svg">a więc nasze własne macierzyństwo i wydanie na świat
+                                naszych dzieci. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="the-gallery">
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-1.png">
+                            <div class="gal-hov-box">
+                                <h3>Sylwia Luks</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-2.png">
+                            <div class="gal-hov-box">
+                                <h3>Olga Kalicka</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-3.png">
+                            <div class="gal-hov-box">
+                                <h3>Ola Domańska</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-4.png">
+                            <div class="gal-hov-box">
+                                <h3>Klaudia Morawska</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-5.png">
+                            <div class="gal-hov-box">
+                                <h3>Lara Gessler</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-6.png">
+                            <div class="gal-hov-box">
+                                <h3>Ula Sherlock</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-7.png">
+                            <div class="gal-hov-box">
+                                <h3>Ewa Starzyńska</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-8.png">
+                            <div class="gal-hov-box">
+                                <h3>Marianka Gierszewska</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-9.png">
+                            <div class="gal-hov-box">
+                                <h3>Izabela Dembińska</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-10.png">
+                            <div class="gal-hov-box">
+                                <h3>Maria Konarowska</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-11.png">
+                            <div class="gal-hov-box">
+                                <h3>Alicja Sobczak</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="assets/img/gal-12.png">
+                            <div class="gal-hov-box">
+                                <h3>Karina Szóstak</h3>
+                                <!-- <p>Utalentowana polska aktorka, która zdobyła uznanie swoją grą zarówno na scenie teatralnej, jak i w produkcjach filmowych</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mob third-slide">
+        <div class="container">
+            <div class="third-slidename">
+                <h3>MARIANNA GIERSZEWSKA</h3>
+                <ul>
+                    <li>KOBIETA</li>
+                    <li><span class="dot"></span></li>
+                    <li>KOBIETA</li>
+                    <li><span class="dot"></span></li>
+                    <li>KOBIETA</li>
+                </ul>
+            </div>
+            <div class="row all-pad">
+                <div class="col-md-6">
+                    <div class="col-last">
+                        <!-- <img src="assets/img/l-1.png"> -->
+                        <p>Od 2016 roku, stomiczka po ratującej życie operacji<br> usunięcia całego jelita
+                            grubego.<br><br>
+
+                            Autorka bestsellerowej książki „być tak naprawdę”,<br> coach kognitywny i praktyk ustawień
+                            systemowych.<br><br>
+
+                            Mówczyni, twórczyni i właścicielka dwóch firm.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-last last-col">
+                        <div class="col-last">
+                            <p>Prowadzi platformę warsztatowo - rozwojowej, Okolice Ciała oraz przestrzeni
+                                terapeutycznej ciała, Ajoni.<br><br>
+
+                                Marianna prowadzi także własny podcast „Tak właśnie mam”, który w ciągu sześciu miesięcy
+                                od premiery odsłuchało ponad 2 miliony osób.</p>
+                            <!-- <img src="assets/img/l-2.png"> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="third-main-con">
+
+                        <div class="third-slide-con">
+                            <span>Bo początek ma znaczenie...</span>
+                            <div class="p-cols">
+                                <p>Przy mamie i tacie. Przy ich zbliżeniu i jakiejś miłości. Pięknej, trudnej, bliskiej
+                                    lub dalekiej. Początek wszystkiego, jest przy bijącym sercu </p>
+                                <p>A gdyby tak popatrzeć dalej i głębiej wstecz? Czy nasze odczuwanie zaczyna się wraz z
+                                    pierwszym oddechem? Czy nie ma wcześniejszego początku? </p>
+                            </div>
+                            <div class="fade-div"></div>
+                            <button type="button" class="pop-btn dark" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">
+                                <span>Przeczytaj pełny opis</span>
+                                <i class="fa-light fa-angle-up"></i>
+                            </button>
+                        </div>
+                        <div class="socail-bar">
+                            <h4>Moje social media</h4>
+                            <ul>
+                                <li><a href=""><img src="assets/img/insta.svg"></a></li>
+                                <li><a href=""><img src="assets/img/spotify.svg"></a></li>
+                                <li><a href=""><img src="assets/img/youtube.svg"></a></li>
+                                <li><a href=""><img src="assets/img/facebook.svg"></a></li>
+                            </ul>
+                        </div>
+                        <div class="last-g">
+                            <img src="assets/img/last-g.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade cc-modal modal-1" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- <div class="modal-header-con"> -->
+                        <h1 class="head pink text-center">Szczegóły wydarzenia</h1>
+                        <!-- <ul>
+                            <li><img src="assets/img/cal.svg">17.04</li>
+                            <li><img src="assets/img/clock.svg">17:00</li>
+                        </ul> -->
+                    <!-- </div> -->
+                    <div class="ff-wrapp">
+                        <div class="the-col">
+                            <img src="assets/img/pn1.png">
+                            <div>
+                                <h3>
+                                    Co się wydarzy?         
+                                </h3>
+                                <p class="para">
+                                    Poza premierą książki“Początek wszystkiego” i rozmową z Marianną Gierszewską po raz pierwszy światło dzienne ujrzy spot będący zaczątkiem akcji społecznej #pamiętnikpoczątku
+                                </p>
+                            </div>
+                        </div>
+                        <div class="the-col">
+                            <img src="assets/img/pn2.png">
+                            <div>
+                                <h3>
+                                    Prowadzący         
+                                </h3>
+                                <p class="para">
+                                    Rozmowę na żywo z Marianną poprowadzi podcaster i twórca projektu “Warto”, Łukasz Brunos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="main-btn center next-slide">
+                        <span>Dowiedz się więcej o kampanii społecznej</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade cc-modal modal-2" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-5 col-12">
+                            <div class="dm-img">
+                                <img src="assets/img/dm-img.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-12">
+                            <div class="dm-con">
+                                <h2>Gdzie jest ,,początek wszystkiego”?</h2>
+                                <div class="p-cols">
+                                    <p>Przy mamie i tacie. Przy ich zbliżeniu i jakiejś miłości. Pięknej, trudnej, bliskiej lub
+                                        dalekiej. Początek wszystkiego, jest przy bijącym sercu opiekunki i przy wspólnym z nią
+                                        doświadczeniu narodzin.<br><br>
+            
+                                        I wreszcie... początek wszystkiego, jest przy historii pierwszych miesięcy i lat życia. O
+                                        tym, że dzieciństwo ma znaczenie wiemy już wszyscy.</p>
+                                    <p>A gdyby tak popatrzeć dalej i głębiej wstecz? Czy nasze odczuwanie zaczyna się wraz z
+                                        pierwszym oddechem? Czy nie ma wcześniejszego początku? Czy dziewięć miesięcy w brzuchu
+                                        mamy, jest czasem znieczulonym i otępiałym?<br><br>
+            
+                                        A może po prostu łatwiej nam nie nazywać tego na co przecież w tamtym czasie słów nie
+                                        mieliśmy?</p>
+                                </div>
+                                <h3>,,Początek wszystkiego” to książka, która</h3>
+                                <ul>
+                                    <li><img src="assets/img/leaf.svg">dogłębnie analizuje wpływ naszego czasu prenatalnego i
+                                        okołoporodowego na późniejsze życie</li>
+                                    <li><img src="assets/img/leaf.svg">poddaje pod dyskusję połączenie naszych pierwszych
+                                        doświadczeń z relacjami, chorobami, myślami, a nawet wyborami na późniejsze życie</li>
+                                    <li><img src="assets/img/leaf.svg">jest zarówno dla dzieci swoich rodziców i rodziców swoich
+                                        dzieci</li>
+                                </ul>
+                                <h3>Bo początek ma znaczenie... <span>Jaki był Twój?</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.addEventListener("mousemove", parallax);
+        });
+
+        function parallax(e) {
+            document.querySelectorAll(".object").forEach(function (move) {
+                var moving_value = move.getAttribute("data-value");
+                var x = (e.clientX * moving_value) / 250;
+                var y = (e.clientY * moving_value) / 250;
+
+                move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+            });
+        }
+    </script>
+</body>
+
+</html>
